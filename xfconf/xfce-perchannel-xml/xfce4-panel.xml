@@ -134,11 +134,8 @@
       <property name="digital-time-format" type="string" value=" %d %b, %H:%M "/>
       <property name="digital-layout" type="uint" value="3"/>
     </property>
-    <property name="plugin-11" type="string" value="launcher">
-      <property name="items" type="array">
-      </property>
-    </property>
     <property name="plugin-12" type="string" value="eyes"/>
+    <property name="plugin-11" type="string" value="showdesktop"/>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>
