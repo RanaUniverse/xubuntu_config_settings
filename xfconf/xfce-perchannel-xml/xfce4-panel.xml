@@ -115,8 +115,10 @@
       </property>
       <property name="hide-new-items" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="xfce4-power-manager"/>
       </property>
       <property name="hidden-legacy-items" type="array">
+        <value type="string" value="xfce4-power-manager"/>
       </property>
     </property>
     <property name="plugin-6" type="string" value="notification-plugin"/>
