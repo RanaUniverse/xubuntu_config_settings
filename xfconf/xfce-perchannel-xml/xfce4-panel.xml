@@ -52,7 +52,6 @@
         <value type="string" value="xfce4-terminal.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="code.desktop"/>
       </property>
       <property name="view-mode" type="int" value="0"/>
       <property name="launcher-show-name" type="bool" value="true"/>
