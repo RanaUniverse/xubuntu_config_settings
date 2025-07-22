@@ -19,8 +19,8 @@
         <value type="int" value="5"/>
         <value type="int" value="6"/>
         <value type="int" value="15"/>
-        <value type="int" value="8"/>
         <value type="int" value="9"/>
+        <value type="int" value="8"/>
         <value type="int" value="10"/>
         <value type="int" value="11"/>
       </property>
@@ -138,11 +138,14 @@
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
-      <property name="enable-wnck" type="bool" value="true"/>
+      <property name="enable-wnck" type="bool" value="false"/>
       <property name="known-players" type="string" value="parole;org.gnome.Rhythmbox3"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
       <property name="persistent-players" type="string" value="parole;org.gnome.Rhythmbox3"/>
-      <property name="show-notifications" type="bool" value="true"/>
+      <property name="show-notifications" type="uint" value="1"/>
+      <property name="rec-indicator-persistent" type="bool" value="false"/>
+      <property name="volume-max" type="uint" value="200"/>
+      <property name="enable-multimedia-keys" type="bool" value="false"/>
     </property>
     <property name="plugin-10" type="string" value="clock">
       <property name="digital-format" type="string" value=" %d %b, %H:%M "/>
