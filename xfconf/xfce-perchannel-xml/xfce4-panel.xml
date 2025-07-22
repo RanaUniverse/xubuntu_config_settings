@@ -19,7 +19,7 @@
         <value type="int" value="9"/>
         <value type="int" value="10"/>
       </property>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
       <property name="size" type="uint" value="24"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="span-monitors" type="bool" value="false"/>
@@ -30,10 +30,10 @@
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="leave-opacity" type="uint" value="100"/>
       <property name="background-rgba" type="array">
-        <value type="double" value="0.14117647058823529"/>
-        <value type="double" value="0.14117647058823529"/>
-        <value type="double" value="0.14117647058823529"/>
-        <value type="double" value="0.80000000000000004"/>
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+        <value type="double" value="0"/>
       </property>
     </property>
     <property name="dark-mode" type="bool" value="true"/>
