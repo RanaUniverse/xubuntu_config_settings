@@ -75,7 +75,7 @@
       <property name="confirm-session-command" type="bool" value="true"/>
     </property>
     <property name="plugin-2" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
+      <property name="style" type="uint" value="1"/>
       <property name="expand" type="bool" value="false"/>
     </property>
     <property name="plugin-3" type="string" value="tasklist">
