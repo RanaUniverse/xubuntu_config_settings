@@ -14,6 +14,7 @@
         <value type="int" value="4"/>
         <value type="int" value="12"/>
         <value type="int" value="13"/>
+        <value type="int" value="16"/>
         <value type="int" value="14"/>
         <value type="int" value="7"/>
         <value type="int" value="5"/>
@@ -53,6 +54,11 @@
         <value type="string" value="xfce4-terminal.desktop"/>
       </property>
       <property name="recent" type="array">
+        <value type="string" value="brave-browser.desktop"/>
+        <value type="string" value="code.desktop"/>
+        <value type="string" value="anytype.desktop"/>
+        <value type="string" value="org.telegram.desktop._2fbb96522ad0f9628422ceb1039fbc4d.desktop"/>
+        <value type="string" value="xfce4-terminal.desktop"/>
       </property>
       <property name="view-mode" type="int" value="0"/>
       <property name="launcher-show-name" type="bool" value="true"/>
@@ -77,6 +83,7 @@
       <property name="sort-categories" type="bool" value="true"/>
       <property name="recent-items-max" type="int" value="25"/>
       <property name="confirm-session-command" type="bool" value="true"/>
+      <property name="show-command-profile" type="bool" value="true"/>
     </property>
     <property name="plugin-2" type="string" value="separator">
       <property name="style" type="uint" value="1"/>
@@ -217,6 +224,7 @@
         <property name="reverse-menu-order" type="bool" value="false"/>
       </property>
     </property>
+    <property name="plugin-16" type="string" value="screenshooter"/>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>
