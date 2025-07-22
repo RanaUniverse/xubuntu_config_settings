@@ -37,8 +37,9 @@
         <value type="string" value="xfhelp4.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="brave-browser.desktop"/>
         <value type="string" value="org.telegram.desktop._2fbb96522ad0f9628422ceb1039fbc4d.desktop"/>
+        <value type="string" value="brave-browser.desktop"/>
+        <value type="string" value="code.desktop"/>
       </property>
     </property>
     <property name="plugin-2" type="string" value="separator">
