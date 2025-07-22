@@ -15,9 +15,9 @@
         <value type="int" value="12"/>
         <value type="int" value="13"/>
         <value type="int" value="14"/>
+        <value type="int" value="7"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
-        <value type="int" value="7"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
@@ -108,17 +108,29 @@
       <property name="symbolic-icons" type="bool" value="true"/>
       <property name="icon-size" type="int" value="0"/>
       <property name="known-items" type="array">
-        <value type="string" value="TelegramDesktop"/>
         <value type="string" value="nm-applet"/>
+      </property>
+      <property name="hidden-items" type="array">
+        <value type="string" value="nm-applet"/>
+      </property>
+      <property name="hide-new-items" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+      </property>
+      <property name="hidden-legacy-items" type="array">
       </property>
     </property>
     <property name="plugin-6" type="string" value="notification-plugin"/>
     <property name="plugin-7" type="string" value="indicator">
       <property name="blacklist" type="array">
         <value type="string" value="libappmenu.so"/>
+        <value type="string" value="libayatana-application.so"/>
       </property>
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-indicators" type="array">
+        <value type="string" value="libayatana-application.so"/>
+      </property>
+      <property name="mode-whitelist" type="bool" value="true"/>
+      <property name="whitelist" type="array">
         <value type="string" value="libayatana-application.so"/>
       </property>
     </property>
