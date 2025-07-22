@@ -4,7 +4,7 @@
   <property name="panels" type="array">
     <value type="int" value="1"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="position" type="string" value="p=8;x=683;y=755"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
@@ -19,13 +19,24 @@
         <value type="int" value="9"/>
         <value type="int" value="10"/>
       </property>
-      <property name="background-style" type="uint" value="0"/>
+      <property name="background-style" type="uint" value="1"/>
       <property name="size" type="uint" value="24"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="span-monitors" type="bool" value="false"/>
       <property name="mode" type="uint" value="0"/>
       <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.14117647058823529"/>
+        <value type="double" value="0.14117647058823529"/>
+        <value type="double" value="0.14117647058823529"/>
+        <value type="double" value="0.80000000000000004"/>
+      </property>
     </property>
+    <property name="dark-mode" type="bool" value="true"/>
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="whiskermenu">
@@ -38,8 +49,8 @@
       </property>
       <property name="recent" type="array">
         <value type="string" value="org.telegram.desktop._2fbb96522ad0f9628422ceb1039fbc4d.desktop"/>
-        <value type="string" value="brave-browser.desktop"/>
         <value type="string" value="code.desktop"/>
+        <value type="string" value="brave-browser.desktop"/>
       </property>
     </property>
     <property name="plugin-2" type="string" value="separator">
