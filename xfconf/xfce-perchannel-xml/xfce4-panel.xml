@@ -18,6 +18,7 @@
         <value type="int" value="7"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
+        <value type="int" value="15"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
@@ -186,6 +187,24 @@
       </property>
       <property name="uptime" type="empty">
         <property name="enabled" type="bool" value="false"/>
+      </property>
+    </property>
+    <property name="plugin-15" type="string" value="xfce4-clipman-plugin"/>
+    <property name="clipman" type="empty">
+      <property name="settings" type="empty">
+        <property name="add-primary-clipboard" type="bool" value="false"/>
+        <property name="persistent-primary-clipboard" type="bool" value="false"/>
+        <property name="show-qr-code" type="bool" value="false"/>
+        <property name="enable-actions" type="bool" value="true"/>
+        <property name="max-images-in-history" type="uint" value="1"/>
+        <property name="history-ignore-primary-clipboard" type="bool" value="true"/>
+      </property>
+      <property name="tweaks" type="empty">
+        <property name="paste-on-activate" type="uint" value="0"/>
+        <property name="popup-at-pointer" type="bool" value="false"/>
+        <property name="max-menu-items" type="uint" value="50"/>
+        <property name="reorder-items" type="bool" value="true"/>
+        <property name="reverse-menu-order" type="bool" value="false"/>
       </property>
     </property>
   </property>
