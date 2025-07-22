@@ -18,6 +18,7 @@
         <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
+        <value type="int" value="11"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
       <property name="size" type="uint" value="24"/>
@@ -41,16 +42,37 @@
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="whiskermenu">
       <property name="favorites" type="array">
-        <value type="string" value="xfce4-web-browser.desktop"/>
-        <value type="string" value="xfce4-mail-reader.desktop"/>
         <value type="string" value="xfce4-file-manager.desktop"/>
         <value type="string" value="xfce4-terminal-emulator.desktop"/>
-        <value type="string" value="xfhelp4.desktop"/>
-      </property>
-      <property name="recent" type="array">
         <value type="string" value="brave-browser.desktop"/>
         <value type="string" value="code.desktop"/>
+        <value type="string" value="xfce4-terminal.desktop"/>
       </property>
+      <property name="recent" type="array">
+      </property>
+      <property name="view-mode" type="int" value="0"/>
+      <property name="launcher-show-name" type="bool" value="true"/>
+      <property name="category-show-name" type="bool" value="true"/>
+      <property name="launcher-show-tooltip" type="bool" value="true"/>
+      <property name="menu-width" type="int" value="1200"/>
+      <property name="menu-height" type="int" value="700"/>
+      <property name="launcher-icon-size" type="int" value="3"/>
+      <property name="category-icon-size" type="int" value="3"/>
+      <property name="position-categories-horizontal" type="bool" value="false"/>
+      <property name="position-categories-alternate" type="bool" value="true"/>
+      <property name="position-profile-alternate" type="bool" value="false"/>
+      <property name="position-search-alternate" type="bool" value="false"/>
+      <property name="position-commands-alternate" type="bool" value="true"/>
+      <property name="profile-shape" type="int" value="0"/>
+      <property name="show-button-title" type="bool" value="true"/>
+      <property name="button-title" type="string" value="Rana Universe 🍌"/>
+      <property name="button-icon" type="string" value="/home/rana-universe/Pictures/linux_logo.png"/>
+      <property name="default-category" type="int" value="0"/>
+      <property name="hover-switch-category" type="bool" value="false"/>
+      <property name="stay-on-focus-out" type="bool" value="false"/>
+      <property name="sort-categories" type="bool" value="true"/>
+      <property name="recent-items-max" type="int" value="25"/>
+      <property name="confirm-session-command" type="bool" value="true"/>
     </property>
     <property name="plugin-2" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -100,6 +122,10 @@
       <property name="digital-format" type="string" value=" %d %b, %H:%M "/>
       <property name="digital-time-format" type="string" value=" %d %b, %H:%M "/>
       <property name="digital-layout" type="uint" value="3"/>
+    </property>
+    <property name="plugin-11" type="string" value="launcher">
+      <property name="items" type="array">
+      </property>
     </property>
   </property>
   <property name="configver" type="int" value="2"/>
