@@ -151,8 +151,13 @@
     </property>
     <property name="plugin-10" type="string" value="clock">
       <property name="digital-format" type="string" value=" %d %b, %H:%M "/>
-      <property name="digital-time-format" type="string" value=" %d %b, %H:%M "/>
-      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-time-format" type="string" value="%H:%M:%S"/>
+      <property name="digital-layout" type="uint" value="1"/>
+      <property name="timezone" type="string" value="Asia/Kolkata"/>
+      <property name="command" type="string" value=""/>
+      <property name="digital-date-format" type="string" value="%a %d %b %Y"/>
+      <property name="digital-date-font" type="string" value="Sans 8"/>
+      <property name="digital-time-font" type="string" value="Sans Bold 8"/>
     </property>
     <property name="plugin-12" type="string" value="eyes"/>
     <property name="plugin-11" type="string" value="showdesktop"/>
