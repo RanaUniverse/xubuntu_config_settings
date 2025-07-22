@@ -14,6 +14,7 @@
         <value type="int" value="4"/>
         <value type="int" value="12"/>
         <value type="int" value="13"/>
+        <value type="int" value="14"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
         <value type="int" value="7"/>
@@ -142,6 +143,39 @@
       <property name="rows" type="uint" value="1"/>
       <property name="workspace-scrolling" type="bool" value="true"/>
       <property name="wrap-workspaces" type="bool" value="false"/>
+    </property>
+    <property name="plugin-14" type="string" value="systemload">
+      <property name="timeout" type="uint" value="500"/>
+      <property name="timeout-seconds" type="uint" value="1"/>
+      <property name="cpu" type="empty">
+        <property name="enabled" type="bool" value="true"/>
+        <property name="color" type="array">
+          <value type="double" value="1"/>
+          <value type="double" value="0.40392156862745099"/>
+          <value type="double" value="0.1215686274509804"/>
+          <value type="double" value="1"/>
+        </property>
+        <property name="label" type="string" value="CPU"/>
+      </property>
+      <property name="network" type="empty">
+        <property name="enabled" type="bool" value="true"/>
+        <property name="color" type="array">
+          <value type="double" value="0.015686274509803918"/>
+          <value type="double" value="0.41568627450980394"/>
+          <value type="double" value="0.21960784313725487"/>
+          <value type="double" value="1"/>
+        </property>
+        <property name="label" type="string" value="NET"/>
+      </property>
+      <property name="swap" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="memory" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="uptime" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
     </property>
   </property>
   <property name="configver" type="int" value="2"/>
