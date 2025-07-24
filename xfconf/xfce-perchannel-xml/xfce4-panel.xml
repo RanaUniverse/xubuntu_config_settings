@@ -26,7 +26,7 @@
         <value type="int" value="11"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
-      <property name="size" type="uint" value="24"/>
+      <property name="size" type="uint" value="32"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="span-monitors" type="bool" value="false"/>
       <property name="mode" type="uint" value="0"/>
@@ -55,10 +55,6 @@
       </property>
       <property name="recent" type="array">
         <value type="string" value="brave-browser.desktop"/>
-        <value type="string" value="code.desktop"/>
-        <value type="string" value="anytype.desktop"/>
-        <value type="string" value="org.telegram.desktop._2fbb96522ad0f9628422ceb1039fbc4d.desktop"/>
-        <value type="string" value="xfce4-terminal.desktop"/>
       </property>
       <property name="view-mode" type="int" value="0"/>
       <property name="launcher-show-name" type="bool" value="true"/>
