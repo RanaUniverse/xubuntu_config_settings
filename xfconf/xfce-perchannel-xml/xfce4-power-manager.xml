@@ -30,5 +30,7 @@
     <property name="brightness-level-on-battery" type="uint" value="20"/>
     <property name="brightness-level-on-ac" type="uint" value="30"/>
     <property name="brightness-on-ac" type="uint" value="9"/>
+    <property name="lid-action-on-battery" type="uint" value="3"/>
+    <property name="lid-action-on-ac" type="uint" value="3"/>
   </property>
 </channel>
