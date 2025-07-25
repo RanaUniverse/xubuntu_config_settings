@@ -82,6 +82,7 @@
       <property name="&lt;Super&gt;e" type="string" value="exo-open --launch FileManager"/>
       <property name="XF86WWW" type="string" value="exo-open --launch WebBrowser"/>
       <property name="override" type="bool" value="true"/>
+      <property name="&lt;Super&gt;i" type="string" value="xfce4-settings-manager"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
