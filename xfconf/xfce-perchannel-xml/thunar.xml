@@ -17,4 +17,5 @@
   <property name="last-toolbar-visible-buttons" type="string" value="0,1,1,1,1,0,0,0,0,0,1,1,1,0,1,1,1,1,0"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
   <property name="last-details-view-column-widths" type="string" value="50,50,114,50,50,50,50,50,886,50,50,62,50,118"/>
+  <property name="last-compact-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_50_PERCENT"/>
 </channel>
