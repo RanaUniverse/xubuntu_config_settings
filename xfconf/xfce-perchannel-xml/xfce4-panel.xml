@@ -118,6 +118,7 @@
       <property name="hidden-items" type="array">
         <value type="string" value="blueman"/>
         <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="nm-applet"/>
       </property>
       <property name="hide-new-items" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
