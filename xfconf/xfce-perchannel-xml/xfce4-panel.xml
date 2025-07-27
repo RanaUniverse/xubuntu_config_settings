@@ -72,7 +72,7 @@
       <property name="profile-shape" type="int" value="0"/>
       <property name="show-button-title" type="bool" value="true"/>
       <property name="button-title" type="string" value="Rana Universe 🍌"/>
-      <property name="button-icon" type="string" value="/home/rana-universe/Pictures/linux_logo.png"/>
+      <property name="button-icon" type="string" value="/home/RANA_UNIVERSE/Pictures/linux_logo.png"/>
       <property name="default-category" type="int" value="0"/>
       <property name="hover-switch-category" type="bool" value="false"/>
       <property name="stay-on-focus-out" type="bool" value="false"/>
