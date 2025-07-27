@@ -22,6 +22,10 @@ echo "🧩 Updating panel configuration to reflect the current username in xfce4
 sed -i "s/RANA_UNIVERSE/$(whoami)/g" xfconf/xfce-perchannel-xml/xfce4-panel.xml
 
 
+echo "Updating username in the scripts for shortcuts so that i can use my custom keybinding in my own scripts easily."
+sed -i "s/RANA_UNIVERSE/$(whoami)/g" xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml 
+
+
 echo "✅ All username replacements completed successfully!"
 
 

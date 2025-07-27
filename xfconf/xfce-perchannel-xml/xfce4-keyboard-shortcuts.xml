@@ -80,6 +80,10 @@
       <property name="XF86WWW" type="string" value="exo-open --launch WebBrowser"/>
       <property name="override" type="bool" value="true"/>
       <property name="&lt;Super&gt;i" type="string" value="xfce4-settings-manager"/>
+      <property name="Print" type="string" value="/home/RANA_UNIVERSE/.apps_and_softwares/scripts_for_shortcuts/screenshot_fullscreen.sh"/>
+      <property name="&lt;Shift&gt;Print" type="string" value="/home/RANA_UNIVERSE/.apps_and_softwares/scripts_for_shortcuts/screenshot_active_windows.sh"/>
+      <property name="&lt;Primary&gt;Print" type="string" value="/home/RANA_UNIVERSE/.apps_and_softwares/scripts_for_shortcuts/screenshot_active_windows.sh"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;Print" type="string" value="/home/RANA_UNIVERSE/.apps_and_softwares/scripts_for_shortcuts/screenshot_rectangle_selection.sh"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
