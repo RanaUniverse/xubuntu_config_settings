@@ -84,6 +84,9 @@
       <property name="&lt;Shift&gt;Print" type="string" value="/home/RANA_UNIVERSE/.apps_and_softwares/scripts_for_shortcuts/screenshot_active_windows.sh"/>
       <property name="&lt;Primary&gt;Print" type="string" value="/home/RANA_UNIVERSE/.apps_and_softwares/scripts_for_shortcuts/screenshot_active_windows.sh"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;Print" type="string" value="/home/RANA_UNIVERSE/.apps_and_softwares/scripts_for_shortcuts/screenshot_rectangle_selection.sh"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;&lt;Super&gt;p" type="string" value="poweroff"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;&lt;Super&gt;r" type="string" value="reboot"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;&lt;Super&gt;s" type="string" value="systemctl suspend"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
