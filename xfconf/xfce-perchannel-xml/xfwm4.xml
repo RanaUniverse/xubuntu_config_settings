@@ -50,7 +50,7 @@
     <property name="use_compositing" type="empty"/>
     <property name="workspace_count" type="int" value="2"/>
     <property name="wrap_resistance" type="empty"/>
-    <property name="wrap_windows" type="empty"/>
+    <property name="wrap_windows" type="bool" value="false"/>
     <property name="wrap_workspaces" type="empty"/>
     <property name="borderless_maximize" type="bool" value="true"/>
     <property name="cycle_raise" type="bool" value="false"/>
@@ -60,7 +60,7 @@
     <property name="cycle_tabwin_mode" type="int" value="0"/>
     <property name="cycle_workspaces" type="bool" value="false"/>
     <property name="double_click_action" type="string" value="maximize"/>
-    <property name="easy_click" type="string" value="Alt"/>
+    <property name="easy_click" type="string" value="Super"/>
     <property name="focus_hint" type="bool" value="true"/>
     <property name="frame_border_top" type="int" value="0"/>
     <property name="horiz_scroll_opacity" type="bool" value="false"/>
