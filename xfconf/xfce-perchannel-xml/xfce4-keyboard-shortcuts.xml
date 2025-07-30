@@ -87,6 +87,7 @@
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;&lt;Super&gt;p" type="string" value="poweroff"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;&lt;Super&gt;r" type="string" value="reboot"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;&lt;Super&gt;s" type="string" value="systemctl suspend"/>
+      <property name="&lt;Super&gt;v" type="string" value="xfce4-clipman-history"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
